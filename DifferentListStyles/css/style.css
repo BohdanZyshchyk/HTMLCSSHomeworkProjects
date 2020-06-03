@@ -1,0 +1,20 @@
+.grey-menu{
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0;
+    color:white;
+    background-color: #3f3f3f;
+    width: 10%;
+}
+
+.grey-menu li{
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+li:hover{
+    background-color: red;
+}
+
+.blue-menu{
+    background-color: #0097be;
+}
