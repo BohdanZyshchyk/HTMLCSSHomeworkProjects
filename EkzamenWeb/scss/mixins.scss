@@ -1,0 +1,10 @@
+@import "colors";
+
+@mixin headerStyle($fsize, $width, $height, $color:$primaryBlue, $ffamily:'Poppins', $fweight:500) {
+    width: $width, ;
+    height: $height;
+    color: $color;
+    font-family: $ffamily;
+    font-size: 15px;
+    font-weight: $fweight;
+}
