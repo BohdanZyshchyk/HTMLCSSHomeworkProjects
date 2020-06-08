@@ -113,3 +113,31 @@ header {
     display: flex;
     justify-content: space-around;
 }
+
+.my-arrow{
+    width: 16px;
+    height: 180px;
+    background-image: url(../img/2-layers.png);
+}
+
+.how-works-b{
+    width: 194px;
+    height: 235px;
+}
+
+.step-ico1{
+    width: 61px; height: 61px;
+    background: url(../img/css_sprites.png) -10px -170px;
+}
+.step-ico2{
+    width: 51px; height: 64px;
+    background: url(../img/css_sprites.png) -10px -415px;
+}
+.step-ico3{
+    width: 60px; height: 60px;
+    background: url(../img/css_sprites.png) -10px -90px;
+}
+.step-ico4{
+    width: 62px; height: 62px;
+    background: url(../img/css_sprites.png) -10px -251px;
+}
