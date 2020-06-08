@@ -1,0 +1,95 @@
+.bg-boy_avatar {
+  width: 60px;
+  height: 60px;
+  background: url("css_sprites.png") -10px -10px;
+}
+
+x .bg-computer {
+  width: 86px;
+  height: 88px;
+  background: url("css_sprites.png") -10px -499px;
+}
+
+x .bg-coupon {
+  width: 532px;
+  height: 620px;
+  background: url("css_sprites.png") -10px -2451px;
+}
+
+x .bg-discount_bg {
+  width: 1922px;
+  height: 556px;
+  background: url("css_sprites.png") -10px -1875px;
+}
+
+x .bg-girl {
+  width: 308px;
+  height: 459px;
+  background: url("css_sprites.png") -10px -1396px;
+}
+
+x .bg-goblet {
+  width: 86px;
+  height: 89px;
+  background: url("css_sprites.png") -10px -715px;
+}
+
+x .bg-magnifier {
+  width: 60px;
+  height: 60px;
+  background: url("css_sprites.png") -10px -90px;
+}
+
+x .bg-main_bg {
+  width: 1923px;
+  height: 631px;
+  background: url("css_sprites.png") -10px -3091px;
+}
+
+x .bg-medal {
+  width: 51px;
+  height: 64px;
+  background: url("css_sprites.png") -10px -415px;
+}
+
+x .bg-pencil {
+  width: 61px;
+  height: 61px;
+  background: url("css_sprites.png") -10px -170px;
+}
+
+x .bg-rocket_big {
+  width: 226px;
+  height: 117px;
+  background: url("css_sprites.png") -10px -824px;
+}
+
+x .bg-rocket_small {
+  width: 62px;
+  height: 62px;
+  background: url("css_sprites.png") -10px -251px;
+}
+
+x .bg-sphere_feather {
+  width: 61px;
+  height: 62px;
+  background: url("css_sprites.png") -10px -333px;
+}
+
+x .bg-tablet {
+  width: 86px;
+  height: 88px;
+  background: url("css_sprites.png") -10px -607px;
+}
+
+x .bg-typewriter {
+  width: 515px;
+  height: 415px;
+  background: url("css_sprites.png") -10px -961px;
+}
+
+x .bg-advantages_bg {
+  width: 1920px;
+  height: 697px;
+  background: url("css_sprites.png") -10px -3742px;
+}

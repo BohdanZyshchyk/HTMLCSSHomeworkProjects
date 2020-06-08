@@ -1,6 +1,6 @@
 @import "colors";
 
-@mixin headerStyle($fsize, $width, $height, $color:$primaryBlue, $ffamily:'Poppins', $fweight:500) {
+@mixin textStyle($fsize, $width, $height, $color:$primaryBlue, $ffamily:'Poppins', $fweight:500) {
     width: $width, ;
     height: $height;
     color: $color;

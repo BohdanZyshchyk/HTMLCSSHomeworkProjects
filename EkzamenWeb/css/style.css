@@ -1,0 +1,112 @@
+.container {
+  width: 100%;
+}
+
+.title {
+  display: flex;
+}
+
+.mainLogo {
+  width: 61px;
+  height: 62px;
+  background: url(../img/css_sprites.png) -10px -333px;
+}
+
+.fa-stack {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.ico-circle {
+  vertical-align: middle;
+  font-weight: 100;
+}
+
+header {
+  background-color: #03a9f4;
+}
+
+.girl-img {
+  width: 308px;
+  height: 459px;
+  background: url(../img/css_sprites.png) -10px -1396px;
+  z-index: 2;
+  position: relative;
+}
+
+.container-zero {
+  width: 1920px;
+  height: 631px;
+  background: url(../img/css_sprites.png) -10px -3091px;
+}
+
+.filters {
+  background-color: #03a9f4;
+  padding: 5px;
+  width: 1201px;
+  height: 136px;
+  box-shadow: 0 4px 30px rgba(202, 202, 202, 0.15);
+  position: absolute;
+  top: 86.6%;
+  z-index: 1;
+}
+
+.container-zero {
+  padding-top: 100px;
+  position: relative;
+}
+
+.with-button {
+  display: flex;
+}
+
+.continue {
+  align-self: center;
+}
+
+.img-type {
+  width: 515px;
+  height: 415px;
+  background: url(../img/css_sprites.png) -10px -961px;
+}
+
+.sitename {
+  padding-top: 5%;
+}
+
+.vec-ico1 {
+  width: 86px;
+  height: 89px;
+  background: url(../img/css_sprites.png) -10px -715px;
+}
+
+.vec-ico2 {
+  width: 86px;
+  height: 88px;
+  background: url(../img/css_sprites.png) -10px -607px;
+}
+
+.vec-ico3 {
+  width: 86px;
+  height: 88px;
+  background: url(../img/css_sprites.png) -10px -499px;
+}
+
+.container-two {
+  margin-top: 150px;
+  width: 1920px;
+  height: 697px;
+  background: url(../img/css_sprites.png) -10px -3742px;
+}
+
+.adv-b {
+  width: 360px;
+  height: 312px;
+  box-shadow: 0 4px 20px rgba(202, 202, 202, 0.25);
+  background-color: #ffffff;
+}
+
+.container-two-row {
+  display: flex;
+  justify-content: space-around;
+}
