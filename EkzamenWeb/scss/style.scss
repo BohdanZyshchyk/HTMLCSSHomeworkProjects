@@ -96,48 +96,87 @@ header {
     height: 88px;
     background: url(../img/css_sprites.png) -10px -499px;
 }
-.container-two{
+
+.container-two {
     margin-top: 150px;
-    width: 1920px; height: 697px;
+    width: 1920px;
+    height: 697px;
     background: url(../img/css_sprites.png) -10px -3742px;
 }
+
 .adv-b {
     width: 360px;
     height: 312px;
     box-shadow: 0 4px 20px rgba(202, 202, 202, 0.25);
     background-color: $white;
-    
+
 }
 
-.container-two-row{
+.container-two-row {
     display: flex;
     justify-content: space-around;
 }
 
-.my-arrow{
+.my-arrow {
     width: 16px;
     height: 180px;
     background-image: url(../img/2-layers.png);
 }
 
-.how-works-b{
+.how-works-b {
     width: 194px;
     height: 235px;
 }
 
-.step-ico1{
-    width: 61px; height: 61px;
+.step-ico1 {
+    width: 61px;
+    height: 61px;
     background: url(../img/css_sprites.png) -10px -170px;
 }
-.step-ico2{
-    width: 51px; height: 64px;
+
+.step-ico2 {
+    width: 51px;
+    height: 64px;
     background: url(../img/css_sprites.png) -10px -415px;
 }
-.step-ico3{
-    width: 60px; height: 60px;
+
+.step-ico3 {
+    width: 60px;
+    height: 60px;
     background: url(../img/css_sprites.png) -10px -90px;
 }
-.step-ico4{
-    width: 62px; height: 62px;
+
+.step-ico4 {
+    width: 62px;
+    height: 62px;
     background: url(../img/css_sprites.png) -10px -251px;
+}
+
+.container-four{
+    width: 1922px;
+    height: 556px;
+    background: url(../img/css_sprites.png) -10px -1875px;
+}
+
+
+.tiles {
+    display: flex;
+    width: 100%;
+}
+
+.img-discount {
+    float: right;
+    width: 418px;
+    height: 486px;
+    background: url(../img/css_sprites.png) -10px -2451px;
+}
+
+.four-tiles {
+    display: flex;
+    width: 555px;
+    height: 486px;
+}
+
+.tile {
+    width: 50%;
 }

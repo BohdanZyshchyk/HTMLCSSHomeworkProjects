@@ -145,3 +145,31 @@ header {
   height: 62px;
   background: url(../img/css_sprites.png) -10px -251px;
 }
+
+.container-four {
+  width: 1922px;
+  height: 556px;
+  background: url(../img/css_sprites.png) -10px -1875px;
+}
+
+.tiles {
+  display: flex;
+  width: 100%;
+}
+
+.img-discount {
+  float: right;
+  width: 418px;
+  height: 486px;
+  background: url(../img/css_sprites.png) -10px -2451px;
+}
+
+.four-tiles {
+  display: flex;
+  width: 555px;
+  height: 486px;
+}
+
+.tile {
+  width: 50%;
+}
