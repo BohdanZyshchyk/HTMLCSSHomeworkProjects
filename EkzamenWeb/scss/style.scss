@@ -162,6 +162,7 @@ header {
 .tiles {
     display: flex;
     width: 100%;
+    box-shadow: 0 4px 30px rgba(202, 202, 202, 0.55);
 }
 
 .img-discount {
@@ -169,6 +170,7 @@ header {
     width: 418px;
     height: 486px;
     background: url(../img/css_sprites.png) -10px -2451px;
+    
 }
 
 .four-tiles {
@@ -179,4 +181,5 @@ header {
 
 .tile {
     width: 50%;
+    background-color: #ffffff;
 }

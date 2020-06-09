@@ -155,6 +155,7 @@ header {
 .tiles {
   display: flex;
   width: 100%;
+  box-shadow: 0 4px 30px rgba(202, 202, 202, 0.55);
 }
 
 .img-discount {
@@ -172,4 +173,5 @@ header {
 
 .tile {
   width: 50%;
+  background-color: #ffffff;
 }
