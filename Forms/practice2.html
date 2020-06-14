@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/practice2.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Contact form</h2>
+        <p>Please fill in your informayion and we'll be sending your order.</p>
+        <div class="field name"><div class="title">Your name</div>
+            <input type="text" placeholder="first name">
+            <input type="text" placeholder="last name">
+        </div>
+        <div class="field email"><div class="title">Your email</div>
+            <input type="email" placeholder="your_mail@mail.com"></div>
+        <div class="field phone"><div class="title">Phone*</div>
+            <input type="number">
+            <input type="number">
+            <input type="number">
+        </div>
+        <div class="field subject"><div class="title">Message subject*</div>
+                <input list="elementName">
+                <datalist id="elementName">
+                    <option value="one"></option>
+                    <option value="two"></option>
+                    <option value="three"></option>
+                </datalist>
+          </div>
+        <div class="field message"><div class="title">Message*</div>
+        <textarea name="" id="" cols="92" rows="4"></textarea></div>
+        <hr>
+        <button>Submit Form</button>
+    </div>
+</body>
+
+</html>

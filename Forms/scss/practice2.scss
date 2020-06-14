@@ -1,0 +1,69 @@
+body{
+    background-image: url(../img/4k-ultra-hd-background-beach-coast-aerial-view-height-sea-wa.jpg);
+    background-size: cover;
+    height: 900px;
+}
+
+.container{
+    color: white;
+    margin: 0 auto;
+    background: transparent;
+    width: 40%;
+    box-shadow: 1px 1px 16px 5px rgba(0, 0, 0, 0.7);
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+h2{
+    font-size: 36px;
+}
+.field{
+    font-size: 24px;
+    display:flex;
+    margin-bottom: 20px;
+    // justify-content: space-between;
+}
+
+input{
+    height: 30px;
+}
+.name{
+    input{
+        width: 30%;
+        margin-right: 20px;
+    }
+}
+.email, .subject{
+    input{
+        width: 62.8%;
+        margin-right: 20px;
+        
+    }
+}
+
+.phone{
+    input{
+        margin-right: 64px;
+    }
+}
+
+hr{
+    width: 78%;
+    margin-right: 22%;
+}
+
+.title{
+    width: 15%;
+}
+button{
+    border: 2px solid white;
+    background: transparent;
+}
+
+button{
+    color: white;
+    margin-left: 15%;
+    height: 30px;
+    width: 63.8%;
+}

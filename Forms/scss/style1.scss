@@ -1,0 +1,103 @@
+$bgColor:#e45d44;
+$formColor:#e6e4e4;
+$b1Color:#32a75a;
+$btColor:#1cb7eb;
+$bfColor:#3a5ba0;
+$hElement:32px;
+$loginWidth: 300px;
+
+.container {
+    background-color: $bgColor;
+    padding: 30px 0 75px 0;
+    
+    .login {
+        background-color: $formColor;
+        padding: 5px 40px 40px 40px;
+        max-width: $loginWidth;
+        width: 100%;
+        margin: 0 auto;
+        box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.7);
+
+   
+        h1{
+            text-align: center;
+            color: rgb(75, 6, 82);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+      
+        form{
+            width: 100%;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            margin: 15px 0;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            color: rgb(75, 6, 82);
+            letter-spacing: 2px;
+            text-align: center;
+            height: $hElement;
+            padding: 0;
+        }
+
+        input[type="button"] {
+            width: 100%;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: none;
+            height: $hElement;
+            text-align: center;
+            padding: 0;
+            background-color: $b1Color;
+            color: white;
+            box-shadow:  0px 3px 0px 0px darken($color: $b1Color, $amount: 25);
+        }
+        input[type="button"]:focus{
+            outline: none;
+        }
+        a{
+            text-align: center;
+            text-decoration: none;
+            display: block;
+
+            margin: 0 auto;
+            margin-top: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            color: $bgColor;
+        }
+    }
+    h3{
+        text-align: center;
+        color: white;
+        font-weight: lighter;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        width: ($loginWidth + 80px);
+        padding: 0;
+        margin: 0 auto;
+        button{
+            height: $hElement;
+            display: block;
+            width: ($loginWidth / 2 - 5px);
+            color: white;
+            border: none;
+            i{
+                padding: 5px;
+            }
+        }
+
+        .fb{
+            background-color: $bfColor;
+            
+        }
+        .tw{
+            background-color: $btColor;
+        }
+        
+    }
+}

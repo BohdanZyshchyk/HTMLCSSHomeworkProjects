@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background-image: url(..//img/icon.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.login {
+    background-color: transparent;
+    /* background-color: rgba(13, 49, 156, 0.425); */
+    padding: 25px;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(75, 6, 82);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    color: rgb(216, 212, 212);
+}
+
+span {
+    color: maroon;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: rgb(75, 6, 82);
+    letter-spacing: 2px;
+    background-color: thistle;
+}
+
+input::placeholder {
+    font-size: 12px;
+    color: mediumpurple;
+    font-style: italic;
+}
+
+input[type="button"] {
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+input[type="button"]:focus{
+    outline: none;
+    transform: scale(1.1);
+}
+input[type="button"]:hover{
+    transform: scale(1.1);
+    background-color: rgb(216, 220, 220);
+}
+
+.search{
+    margin-bottom: 30px;
+}
+.search form{
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    border-radius: 10px;
+}
+
+.search input{
+    width: 100%;
+    padding-left: 10px;
+    margin:  0;
+}
+
+.search input:focus{
+    border: 1px solid rgb(71, 68, 68);
+    border-radius: 10px 0 0 10px;
+}
+
+
+.search input, .search button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+}
+
+.search i{
+    color: rgb(107, 1, 107);
+    font-size: 17px;
+}

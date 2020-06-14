@@ -1,0 +1,86 @@
+.container {
+  background-color: #e45d44;
+  padding: 30px 0 75px 0;
+}
+.container .login {
+  background-color: #e6e4e4;
+  padding: 5px 40px 40px 40px;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.7);
+}
+.container .login h1 {
+  text-align: center;
+  color: #4b0652;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container .login form {
+  width: 100%;
+}
+.container .login input[type=text],
+.container .login input[type=password] {
+  width: 100%;
+  margin: 15px 0;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #4b0652;
+  letter-spacing: 2px;
+  text-align: center;
+  height: 32px;
+  padding: 0;
+}
+.container .login input[type=button] {
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  height: 32px;
+  text-align: center;
+  padding: 0;
+  background-color: #32a75a;
+  color: white;
+  box-shadow: 0px 3px 0px 0px #154525;
+}
+.container .login input[type=button]:focus {
+  outline: none;
+}
+.container .login a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #e45d44;
+}
+.container h3 {
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+.container .buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+  padding: 0;
+  margin: 0 auto;
+}
+.container .buttons button {
+  height: 32px;
+  display: block;
+  width: 145px;
+  color: white;
+  border: none;
+}
+.container .buttons button i {
+  padding: 5px;
+}
+.container .buttons .fb {
+  background-color: #3a5ba0;
+}
+.container .buttons .tw {
+  background-color: #1cb7eb;
+}
