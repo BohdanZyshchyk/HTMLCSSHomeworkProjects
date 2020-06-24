@@ -1,0 +1,43 @@
+.my-container{
+    width: 30%;
+    height: 900px;
+}
+
+.menu{
+    background-color: #af2646;
+    height: 50px;
+    display: flex; 
+    margin-bottom: 2px;
+}
+
+span{
+    width: 88%;
+    line-height: 50px;
+    font-size: 24px;
+    padding-left: 15px;
+}
+
+.icon-left{
+    padding-right: 15px;
+}
+
+.slide-menu-li{
+    background-color: #5e252c;
+    margin-bottom: 2px;
+}
+
+.fa-sort-up{
+    align-self: center;
+}
+
+.display{
+    display: none; 
+}
+
+.transition{
+    transition: 0.5s;
+}
+
+.transition:hover{
+    border-left: 20px solid red;
+}
