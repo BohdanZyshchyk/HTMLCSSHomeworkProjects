@@ -1,0 +1,42 @@
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.inputs{
+    width: 100%;
+    display: flex;
+}
+.inputs>label{
+    font-weight: bold;
+    width: 20%;
+}
+
+.inputs>input{
+    font-weight: bold;
+}
+
+input{
+    margin-bottom: 20px;
+}
+input[type="number"]{
+    width: 10%;
+}
+.radiob{
+    display: flex;
+    flex-direction: column;
+}
+
+.properties{
+    display: flex;
+    flex-direction: row;
+}
+
+.display{
+    display: none;
+}

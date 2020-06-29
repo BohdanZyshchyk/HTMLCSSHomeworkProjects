@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/recipe.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                Share a Recipe
+            </h1>
+            <h2>Share your recipe with us</h2>
+            <hr>
+        </header>
+        <form>
+            <div class="inputs">
+                <label for="recipe-name">Name:</label>
+                <input id="recipe-name" type="text">
+            </div>
+            <label for="description">Description:</label>
+            <textarea id="description" cols="30" rows="10"></textarea>
+            <div class="inputs">
+                <label for="types">Type:</label>
+                <select id="types" name="cars">
+                    <option value=""></option>
+                    <option value="cake">Cake</option>
+                    <option value="soup">Soup</option>
+                    <option value="meat">Meat</option>
+                </select>
+            </div>
+            <div class="inputs">
+                <label >Difficulty</label>
+                <div class="radiob">
+                    <label>
+                        <input type="radio" name="choice" value="Easy" /> Easy
+                    </label>
+                    <label>
+                        <input type="radio" name="choice" value="Moderate" /> Moderate
+                    </label>
+                    <label>
+                        <input type="radio" name="choice" value="Hard" /> Hard
+                    </label>
+                </div>
+            </div>
+            <div class="inputs">
+                <label for="servings">No. of Servings:</label>
+                <input id="servings" type="number" min="0" >
+            </div>
+            <div class="inputs">
+                <label for="prepare">Preparation time</label>
+                <input id="prepare" type="number" min="0" max="60" >
+            </div>
+            <div class="inputs">
+                <label for="cooking">Cooking time</label>
+                <input id="cooking" type="number" min="0" max="60" >
+            </div>
+            <label for="ingredients">Ingredients</label>
+            <textarea id="Ingredients" cols="30" rows="10"></textarea>
+            <input type="button" value="Add recipe">
+        </form>
+        <div class="recipe">
+            <h2 id="r-name">Recipe name</h2>
+            <h3 id="r-type">Recipe type</h3>
+            <div class="properties">
+               <div id="r-people" class="property">1</div>
+               <div id="r-time" class="property">2</div>
+               <div id="r-lvl" class="property">3</div>
+               <div id="r-cook" class="property">4</div>
+            </div>
+            <p class="description"></p>
+            <span>ingredients</span>
+            <p class="ingredients"></p>
+        </div>
+    </div>
+    <script src="js/recipe.js"></script>
+</body>
+
+</html>
