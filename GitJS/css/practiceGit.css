@@ -1,0 +1,21 @@
+.profile-pic {
+    float: left;
+    overflow: hidden;
+}
+
+.profile {
+    margin-top: 20px;
+}
+
+.profile-data {
+    float: right;
+    overflow: hidden;
+}
+
+.display {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
