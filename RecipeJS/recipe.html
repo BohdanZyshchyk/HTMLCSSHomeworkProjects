@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/recipe.css">
+    <script src="https://kit.fontawesome.com/2cda9efde9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -34,10 +35,10 @@
                 </select>
             </div>
             <div class="inputs">
-                <label >Difficulty</label>
+                <label>Difficulty</label>
                 <div class="radiob">
                     <label>
-                        <input type="radio" name="choice" value="Easy" /> Easy
+                        <input type="radio" name="choice" checked value="Easy" /> Easy
                     </label>
                     <label>
                         <input type="radio" name="choice" value="Moderate" /> Moderate
@@ -49,31 +50,36 @@
             </div>
             <div class="inputs">
                 <label for="servings">No. of Servings:</label>
-                <input id="servings" type="number" min="0" >
+                <input id="servings" type="number" min="0">
             </div>
             <div class="inputs">
                 <label for="prepare">Preparation time</label>
-                <input id="prepare" type="number" min="0" max="60" >
+                <input id="prepare" type="number" min="0" max="60">
             </div>
             <div class="inputs">
                 <label for="cooking">Cooking time</label>
-                <input id="cooking" type="number" min="0" max="60" >
+                <input id="cooking" type="number" min="0" max="60">
             </div>
             <label for="ingredients">Ingredients</label>
-            <textarea id="Ingredients" cols="30" rows="10"></textarea>
+            <textarea id="ingredients" cols="30" rows="10"></textarea>
             <input type="button" value="Add recipe">
         </form>
-        <div class="recipe">
+        <div class="recipe display">
+            <div class="pic"></div>
             <h2 id="r-name">Recipe name</h2>
-            <h3 id="r-type">Recipe type</h3>
+            <h4 id="r-type">Recipe type</h4>
             <div class="properties">
-               <div id="r-people" class="property">1</div>
-               <div id="r-time" class="property">2</div>
-               <div id="r-lvl" class="property">3</div>
-               <div id="r-cook" class="property">4</div>
+                <i class="fas fa-users"></i>
+                <div id="r-people" class="property">1</div>
+                <i class="fas fa-clock"></i>
+                <div id="r-time" class="property">2</div>
+                <i class="fas fa-wifi"></i>
+                <div id="r-lvl" class="property">3</div>
+                <i class="fas fa-fire"></i>
+                <div id="r-cook" class="property">4</div>
             </div>
             <p class="description"></p>
-            <span>ingredients</span>
+            <label>Ingredients:</label>
             <p class="ingredients"></p>
         </div>
     </div>
