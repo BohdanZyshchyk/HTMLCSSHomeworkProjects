@@ -54,7 +54,6 @@ li {
 }
 
 .footer-nav {
-    height: 160px;
     background-color: #c8c10d;
 }
 
@@ -73,7 +72,7 @@ h2 {
     color: #4c4b45;
     font-family: Lato;
     font-size: 18px;
-    font-weight:700;
+    font-weight: 700;
     line-height: 24px;
 }
 
@@ -91,30 +90,36 @@ p {
     font-weight: 400;
     margin-bottom: 71px;
 }
-.product{
+
+.product {
     background-color: #eae7e8;
 }
-.container-product{
+
+.container-product {
     display: flex;
     justify-content: center;
 }
 
-.container-product>img{
+.container-product>img {
     float: right;
 }
 
-.div-prod{
+.div-prod {
     display: flex;
     justify-content: end;
 }
-.div-prod>img{
+
+.div-prod>img {
     width: 100%;
     height: auto;
 }
 
-.container-footer{
+.container-footer {
     padding-top: 40px;
     padding-bottom: 42px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    overflow: hidden;
 }
+
