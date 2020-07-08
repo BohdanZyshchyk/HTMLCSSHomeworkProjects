@@ -96,6 +96,7 @@ p {
 }
 .container-product{
     display: flex;
+    justify-content: center;
 }
 
 .container-product>img{
