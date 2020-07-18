@@ -1,20 +1,20 @@
-.container{
+.container {
     margin-top: 20px;
     height: 800px;
     width: 80%;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     background-color: lightgray;
-    
 }
 
-header{
+header {
     overflow: hidden;
 }
-h1{
+
+h1 {
     float: left;
 }
 
-.has-search{
+.has-search {
     width: 20%;
     float: right;
 }
@@ -24,7 +24,7 @@ h1{
 }
 
 .has-search .form-control-feedback {
-    position: absolute; 
+    position: absolute;
     z-index: 2;
     display: block;
     width: 2.375rem;
@@ -34,7 +34,7 @@ h1{
     color: #aaa;
 }
 
-.data{
+.data {
     margin: 0 auto;
     width: 90%;
     height: 85%;
@@ -43,23 +43,36 @@ h1{
     justify-content: space-around;
 }
 
-.display{
+.display {
     display: none;
 }
 
-.weather{
+.weather {
     width: 98%;
     height: 40%;
-    background-color: whitesmoke;
+    background-color: white;
 }
-h4{
+
+h4 {
+    text-align: left;
     font-size: small;
 }
-.details{
+
+.details {
     display: flex;
     justify-content: space-evenly;
 }
 
-.detail{
+.detail {
     width: 30%;
+}
+
+.data-detail h3 {
+    font-weight: 100;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.hour-detail {
+    margin-left: 15px;
 }
