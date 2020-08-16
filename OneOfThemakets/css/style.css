@@ -1,9 +1,44 @@
 .header-title {
+    overflow: hidden;
     background-image: url(../img/Transperent_BG.png);
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 79px;
+    font-weight: 700;
+    line-height: 84.24px;
+    text-transform: uppercase;
 }
 
 h2 {
     padding-top: 245px;
-    color: #18cfab;
     font-family: Montserrat;
+    color: #ffffff;
+    text-transform: uppercase;
 }
+
+h2>span {
+    color: #18cfab;
+}
+
+.buttons {
+    margin-bottom: 244px;
+}
+
+.col-3>img {
+    height: 76px;
+    margin-top: 95px;
+}
+
+.col-3>p {
+    margin-top: 59px;
+    margin-bottom: 120px;
+}
+
+.about-company {
+    background-image: url(../img/Transperent_BG\(1\).png);
+}
+
+.my-list {}
